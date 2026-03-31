@@ -1,0 +1,39 @@
+{
+  "total": 392,
+  "swesmith_valid": 1,
+  "swesmith_rate": 0.0026,
+  "buginstruct_valid": 81,
+  "buginstruct_rate": 0.2066,
+  "featadd_valid": 8,
+  "featadd_rate": 0.0204,
+  "swesmith_statuses": {
+    "no_breakage": 343,
+    "error": 15,
+    "rewrite_identical": 13,
+    "patch_fail": 12,
+    "timeout_pre": 5,
+    "all_broken": 2,
+    "timeout_post": 1,
+    "valid": 1
+  },
+  "buginstruct_statuses": {
+    "no_breakage": 269,
+    "error": 14,
+    "valid": 81,
+    "invalid": 17,
+    "patch_fail": 2,
+    "search_not_found": 3,
+    "timeout_pre": 4,
+    "all_broken": 2
+  },
+  "featadd_statuses": {
+    "no_breakage": 360,
+    "error": 13,
+    "valid": 8,
+    "timeout_pre": 4,
+    "invalid": 2,
+    "search_not_found": 2,
+    "no_modification": 2,
+    "timeout_post": 1
+  }
+}

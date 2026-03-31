@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-03-25T12:10:14.634911",
+  "total": 200,
+  "status_counts": {
+    "error": 43,
+    "valid": 61,
+    "invalid": 81,
+    "no_function": 1,
+    "rewrite_identical": 7,
+    "patch_fail": 7
+  },
+  "valid_rate_attempted": 30.65326633165829,
+  "valid_rate_total": 30.5,
+  "repo_stats": {
+    "django/django": {
+      "total": 35,
+      "valid": 9,
+      "invalid": 15,
+      "error": 5,
+      "other": 6
+    },
+    "astropy/astropy": {
+      "total": 16,
+      "valid": 8,
+      "invalid": 5,
+      "error": 3,
+      "other": 0
+    },
+    "sympy/sympy": {
+      "total": 15,
+      "valid": 0,
+      "invalid": 0,
+      "error": 14,
+      "other": 1
+    },
+    "sphinx-doc/sphinx": {
+      "total": 35,
+      "valid": 9,
+      "invalid": 16,
+      "error": 7,
+      "other": 3
+    },
+    "pydata/xarray": {
+      "total": 16,
+      "valid": 6,
+      "invalid": 8,
+      "error": 1,
+      "other": 1
+    },
+    "pylint-dev/pylint": {
+      "total": 9,
+      "valid": 3,
+      "invalid": 6,
+      "error": 0,
+      "other": 0
+    },
+    "psf/requests": {
+      "total": 8,
+      "valid": 0,
+      "invalid": 7,
+      "error": 1,
+      "other": 0
+    },
+    "scikit-learn/scikit-learn": {
+      "total": 27,
+      "valid": 15,
+      "invalid": 10,
+      "error": 0,
+      "other": 2
+    },
+    "matplotlib/matplotlib": {
+      "total": 23,
+      "valid": 4,
+      "invalid": 7,
+      "error": 10,
+      "other": 2
+    },
+    "pytest-dev/pytest": {
+      "total": 16,
+      "valid": 7,
+      "invalid": 7,
+      "error": 2,
+      "other": 0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+# TraceGen 均衡合成 - qwen3.5-flash
+# 206 seeds, 10 repos, ~25/repo
+defaults:
+  - config_django_dev
+  - _self_
+
+data:
+  swebench_path: "data/swebench_verified_all.json"
+  target_instances_path: "configs/target_instances_balanced.json"
+  output_dir: "../tracegen-outputs/balanced_flash/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+
+synthesis_llm:
+  provider: "openai"
+  model: "qwen3.5-flash"
+  temperature: 0.7
+  max_tokens: 8000
+  timeout: 300
+  max_retries: 3
+  api_key: ${oc.env:LLM_API_KEY}
+  base_url: https://api.openai.com/v1
+
+analyzer_llm:
+  provider: "openai"
+  model: "qwen3.5-flash"
+  temperature: 0.5
+  max_tokens: 8192
+  timeout: 60
+  max_retries: 3
+  api_key: ${oc.env:LLM_API_KEY}
+  base_url: https://api.openai.com/v1
+
+method:
+  synthesis:
+    agent:
+      validate_during_synthesis: true
+      max_attempts: 2
+
+runtime:
+  batch_size: 0
+  num_workers: 12
+  max_synthesis_instances: 0
+  enable_extraction: false
+  enable_synthesis: true
+  enable_validation: true
+  # Evaluation: use external SWE-agent (see scripts/sweagent/)
+
+validation:
+  num_workers: 16
+
+embedding:
+  batch_size: 10

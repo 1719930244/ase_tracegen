@@ -1,0 +1,23 @@
+# TraceGen 四仓库统一配置
+# Django(114) + pytest(119) + sklearn(229) + sympy(386) = 848 实例
+# 继承 config.yaml，仅覆盖差异项
+
+defaults:
+  - config_django_dev
+  - _self_
+
+# 数据路径 - 四仓库统一数据集
+data:
+  swebench_path: "data/swebench_4repo.json"
+  target_instances_path: "configs/target_instances_4repo.json"
+  output_dir: "../tracegen-outputs/4repo_run/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+
+# 运行配置 - 不限制实例数
+runtime:
+  batch_size: 0  # 0 = 不限制，跑全部 845 实例
+  num_workers: 4
+  max_synthesis_instances: 0  # 0 = 不限制
+
+# 验证 - 更高并发
+validation:
+  num_workers: 8

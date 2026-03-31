@@ -1,0 +1,51 @@
+{
+  "model": "gpt-5.4",
+  "total_evaluated": 252,
+  "errors": 0,
+  "by_method": {
+    "SWE-Smith": {
+      "count": 61,
+      "averages": {
+        "D1_naturalness": 2.475,
+        "D2_subtlety": 2.246,
+        "D3_coherence": 2.574,
+        "D4_diagnostic": 1.0,
+        "D5_fix_complexity": 1.672
+      },
+      "overall_avg": 1.993
+    },
+    "TraceGen": {
+      "count": 98,
+      "averages": {
+        "D1_naturalness": 2.888,
+        "D2_subtlety": 2.286,
+        "D3_coherence": 3.112,
+        "D4_diagnostic": 4.0,
+        "D5_fix_complexity": 1.459
+      },
+      "overall_avg": 2.749
+    },
+    "BugInstruct": {
+      "count": 87,
+      "averages": {
+        "D1_naturalness": 4.437,
+        "D2_subtlety": 3.264,
+        "D3_coherence": 4.46,
+        "D4_diagnostic": 4.046,
+        "D5_fix_complexity": 1.839
+      },
+      "overall_avg": 3.609
+    },
+    "FeatAdd": {
+      "count": 6,
+      "averages": {
+        "D1_naturalness": 3.167,
+        "D2_subtlety": 2.5,
+        "D3_coherence": 3.167,
+        "D4_diagnostic": 4.0,
+        "D5_fix_complexity": 1.667
+      },
+      "overall_avg": 2.9
+    }
+  }
+}

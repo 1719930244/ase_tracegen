@@ -1,0 +1,137 @@
+# TraceGen Main Configuration
+defaults:
+  - _self_
+
+# Hydra settings
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+
+# Data paths
+data:
+  swebench_path: "data/seed_instances/sample_10.json"  # Input SWE-bench instances
+  target_instances_path: ""  # Optional: JSON list of instance IDs to process
+  output_dir: "outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+  cache_dir: "data/assets"
+
+# Synthesis LLM (for bug generation)
+# Supports any OpenAI-compatible API endpoint
+synthesis_llm:
+  provider: "openai"
+  model: "gpt-4o"                          # or any OpenAI-compatible model
+  temperature: 0.7
+  max_tokens: 8000
+  timeout: 300
+  max_retries: 3
+  api_key: ${oc.env:LLM_API_KEY}
+  base_url: ${oc.env:LLM_BASE_URL}        # e.g., https://api.openai.com/v1
+
+# Analyzer LLM (for chain extraction)
+analyzer_llm:
+  provider: "openai"
+  model: "gpt-4o"
+  temperature: 0.5
+  max_tokens: 8192
+  timeout: 60
+  max_retries: 3
+  api_key: ${oc.env:LLM_API_KEY}
+  base_url: ${oc.env:LLM_BASE_URL}
+
+# Code graph construction (AST-based)
+graph:
+  engine: "code"
+  fuzzy_search: true
+  global_import: false
+  max_depth: 1000
+
+# Method configuration
+method:
+  name: "voting"
+  num_candidates: 5
+
+  # Extraction settings
+  extraction:
+    max_chains: 10
+    min_chain_length: 2
+    use_graph_guidance: true
+    use_code_graph_builder: true
+    use_fuzzy_search: true
+    use_global_import: false
+
+  # Ablation switches (enable via Hydra override)
+  # Example: python main.py method.ablation.disable_graph_matching=true
+  ablation:
+    disable_graph_matching: false      # A: Random candidate selection instead of vector matching
+    disable_fix_intent: false          # B: Do not pass fix_intent to agent
+    disable_chain_alignment: false     # C: Skip chain alignment scoring
+    disable_quality_controls: false    # D: Remove comment/docstring checks
+    disable_candidate_filtering: false # Skip intent-compatibility filtering
+    disable_agent_exploration: false   # Single LLM call instead of multi-turn ReAct
+    disable_chain_depth_filter: false  # Skip chain depth matching filter
+
+  # Synthesis configuration (ReAct Agent mode)
+  synthesis:
+    agent:
+      max_turns: 20           # Maximum agent conversation turns
+      temperature: 0.7
+      enable_heuristics: true
+      generate_synthetic_test: false  # Use existing repo tests (recommended)
+      ps_level: "standard"    # Problem statement info level: minimal / standard / detailed / mixed
+      ps_hybrid_mode: ""      # Post-validation PS augmentation: "" (disabled) / hybrid / test_only / test_enhanced
+      ps_select: "L1"         # Chain-guided PS selection: L1 (hard) / L2 (medium) / L3 (easy) / Original
+    matcher:
+      embedding_dir: "data/assets/embeddings"
+      top_k_vector: 50        # Initial vector retrieval count
+      top_k_final: 5          # Final candidates returned
+    match_score:
+      agent_min: 0.5
+      agent_quality_threshold: 0.6
+      matcher_min: 0.35
+      pattern_matcher_min: 0.4
+
+# Runtime configuration
+runtime:
+  batch_size: 10              # Limit input instances (0 = unlimited)
+  num_workers: 4              # Stage 3 validation concurrency
+  verbose: true
+  seed: 42
+  enable_extraction: true     # Stage 1: Trace extraction
+  enable_synthesis: true      # Stage 2: Bug synthesis
+  enable_validation: true     # Stage 3: Docker validation (requires Docker/Podman)
+  # Evaluation: use external SWE-agent (see scripts/sweagent/)
+  max_synthesis_instances: 1  # Bugs per seed instance (0 = unlimited)
+  validation_only_dir: ""     # Set to existing output dir to skip Stage 1-2
+
+# Stage 0: Fault localization (auto-generates for instances without LocAgent data)
+localization:
+  max_depth: 6
+
+# Embedding generation
+embedding:
+  auto_generate: true
+  api_key: ${oc.env:EMBEDDING_API_KEY}
+  dimension: 1024
+  batch_size: 10
+
+# Validation configuration (Stage 3)
+validation:
+  enabled: true
+  default_image: "docker.io/library/python:3.10-slim"
+  timeout: 300
+  memory_limit: "4g"
+  clean_containers: true
+  verbose: true
+  auto_pull: true
+  dockerhub_org: "swebench"  # Pull SWE-bench Docker images from DockerHub
+  test_selection_mode: "module_suite"  # fast | module_suite
+  minimize_test_suite: false
+  max_fail_labels: 1
+  max_pass_labels: 1
+  max_total_labels: 6
+  enforce_chain_coverage: false
+  min_chain_coverage: 0.34
+  require_target_node_in_traceback: false
+
+# Stage 4: External SWE-agent evaluation
+# See scripts/sweagent/ for conversion and evaluation scripts

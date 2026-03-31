@@ -1,0 +1,23 @@
+# TraceGen SWE-Bench Verified 全量配置
+# 500 instances, 12 repos
+# 跳过 extraction，直接 synthesis + validation（460 eligible seeds）
+defaults:
+  - config_django_dev
+  - _self_
+
+data:
+  swebench_path: "data/seed_instances/balanced_200.json"
+  target_instances_path: ""
+  output_dir: "outputs/full_run"
+
+runtime:
+  batch_size: 0
+  num_workers: 6
+  max_synthesis_instances: 0
+  enable_extraction: false
+  enable_synthesis: true
+  enable_validation: true
+  # Evaluation: use external SWE-agent (see scripts/sweagent/)
+
+embedding:
+  batch_size: 10

@@ -1,0 +1,64 @@
+{
+  "method": "BugPilot FeatAdd",
+  "model": "qwen3.5-flash",
+  "seeds": 200,
+  "valid": 6,
+  "valid_rate": "3.0%",
+  "status_breakdown": {
+    "no_breakage": 171,
+    "timeout_pre": 12,
+    "patch_failed": 10,
+    "valid": 6,
+    "invalid": 1
+  },
+  "per_repo": {
+    "astropy/astropy": {
+      "valid": 0,
+      "total": 16
+    },
+    "django/django": {
+      "valid": 6,
+      "total": 35
+    },
+    "matplotlib/matplotlib": {
+      "valid": 0,
+      "total": 23
+    },
+    "psf/requests": {
+      "valid": 0,
+      "total": 8
+    },
+    "pydata/xarray": {
+      "valid": 0,
+      "total": 16
+    },
+    "pylint-dev/pylint": {
+      "valid": 0,
+      "total": 9
+    },
+    "pytest-dev/pytest": {
+      "valid": 0,
+      "total": 16
+    },
+    "scikit-learn/scikit-learn": {
+      "valid": 0,
+      "total": 27
+    },
+    "sphinx-doc/sphinx": {
+      "valid": 0,
+      "total": 35
+    },
+    "sympy/sympy": {
+      "valid": 0,
+      "total": 15
+    }
+  },
+  "valid_instances": [
+    "django__django-14493",
+    "django__django-14580",
+    "django__django-13410",
+    "django__django-13406",
+    "django__django-11749",
+    "django__django-15252"
+  ]
+}

@@ -1,0 +1,2067 @@
+[
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319213831490510",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 5,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319213911546761",
+    "status": "valid",
+    "p2f_count": 9,
+    "p2p_count": 2,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319213938640869",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 10,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319214432962901",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 473,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319214858926891",
+    "status": "valid",
+    "p2f_count": 27,
+    "p2p_count": 44,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319215003912256",
+    "status": "valid",
+    "p2f_count": 14,
+    "p2p_count": 57,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319225338524776",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 64,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319225402980135",
+    "status": "valid",
+    "p2f_count": 15,
+    "p2p_count": 50,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319225425299191",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 64,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319225535681145",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 68,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319231226109946",
+    "status": "valid",
+    "p2f_count": 7,
+    "p2p_count": 21,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_astropy_astropy_20260319231306127543",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 20,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260319233622547295",
+    "status": "valid",
+    "p2f_count": 69,
+    "p2p_count": 439,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260319233808247158",
+    "status": "valid",
+    "p2f_count": 24,
+    "p2p_count": 484,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260319234442073437",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 545,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260319234607230162",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 545,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260319234732268522",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 718,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260319234803753447",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 545,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260319235140745785",
+    "status": "valid",
+    "p2f_count": 90,
+    "p2p_count": 425,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260319235211895184",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 514,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260319235531904776",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 616,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320000522772460",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 542,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320001021945011",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 617,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320001237418608",
+    "status": "valid",
+    "p2f_count": 9,
+    "p2p_count": 351,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320001538556416",
+    "status": "valid",
+    "p2f_count": 114,
+    "p2p_count": 482,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320002450878997",
+    "status": "valid",
+    "p2f_count": 9,
+    "p2p_count": 357,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320003107251819",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 364,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320004424192474",
+    "status": "valid",
+    "p2f_count": 51,
+    "p2p_count": 466,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320004527482155",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 515,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320005224866451",
+    "status": "valid",
+    "p2f_count": 74,
+    "p2p_count": 442,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320005255180902",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 1525,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320005311849022",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 1525,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320005431436584",
+    "status": "valid",
+    "p2f_count": 105,
+    "p2p_count": 155,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320005706509229",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 297,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320010021736677",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 35,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320010929186373",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 234,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320011524740549",
+    "status": "valid",
+    "p2f_count": 26,
+    "p2p_count": 357,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320011817402676",
+    "status": "valid",
+    "p2f_count": 14,
+    "p2p_count": 445,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320012038349986",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 455,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320012155918016",
+    "status": "valid",
+    "p2f_count": 51,
+    "p2p_count": 333,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320013446341809",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 553,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320013511253523",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 166,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320015025075002",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 386,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320015359994796",
+    "status": "valid",
+    "p2f_count": 64,
+    "p2p_count": 395,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320015635024742",
+    "status": "valid",
+    "p2f_count": 5,
+    "p2p_count": 297,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320020253176387",
+    "status": "valid",
+    "p2f_count": 26,
+    "p2p_count": 133,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320020550342610",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 557,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320020652194033",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 612,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320020758740806",
+    "status": "valid",
+    "p2f_count": 93,
+    "p2p_count": 1507,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320020907288265",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 617,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320020938722630",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 667,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320021248032597",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 567,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320022147821145",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 557,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320022337960511",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 47,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320023021599460",
+    "status": "valid",
+    "p2f_count": 13,
+    "p2p_count": 86,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320023357998156",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 18,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320024208141798",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 250,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320024541048155",
+    "status": "valid",
+    "p2f_count": 35,
+    "p2p_count": 82,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320024552597399",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 116,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320024755943868",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 556,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320024852706541",
+    "status": "valid",
+    "p2f_count": 14,
+    "p2p_count": 548,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320025259307519",
+    "status": "valid",
+    "p2f_count": 98,
+    "p2p_count": 240,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320025315598790",
+    "status": "valid",
+    "p2f_count": 7,
+    "p2p_count": 566,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320025325253980",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 573,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320025400412719",
+    "status": "valid",
+    "p2f_count": 39,
+    "p2p_count": 298,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320025847566017",
+    "status": "valid",
+    "p2f_count": 54,
+    "p2p_count": 509,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320025953012760",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 562,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320030059690050",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 562,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320030350790062",
+    "status": "valid",
+    "p2f_count": 10,
+    "p2p_count": 236,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320030542974677",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 580,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320031933523829",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 42,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320032646894452",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 583,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320032749333972",
+    "status": "valid",
+    "p2f_count": 11,
+    "p2p_count": 578,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320033415381168",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 259,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320033459131612",
+    "status": "valid",
+    "p2f_count": 5,
+    "p2p_count": 411,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320033645426531",
+    "status": "valid",
+    "p2f_count": 22,
+    "p2p_count": 187,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320033853353216",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 599,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320034220902793",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 13,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320034823591671",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 266,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320034934327566",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 266,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320035002125355",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 94,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320035433388964",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 612,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320035549345806",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 612,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320041323245604",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 613,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320041813722098",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 417,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320042745560680",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 603,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320044249280407",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 660,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320050602107833",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 685,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320050732241445",
+    "status": "valid",
+    "p2f_count": 289,
+    "p2p_count": 400,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320050746501384",
+    "status": "valid",
+    "p2f_count": 21,
+    "p2p_count": 668,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320050852238865",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 686,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320052633601981",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 602,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320052756363460",
+    "status": "valid",
+    "p2f_count": 8,
+    "p2p_count": 89,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320053053677997",
+    "status": "valid",
+    "p2f_count": 16,
+    "p2p_count": 112,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320053119593460",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 602,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320053852864096",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 15,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320054123116781",
+    "status": "valid",
+    "p2f_count": 9,
+    "p2p_count": 88,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320054217009042",
+    "status": "valid",
+    "p2f_count": 5,
+    "p2p_count": 846,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320055845129431",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 67,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320060130543724",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 720,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320061104252445",
+    "status": "valid",
+    "p2f_count": 137,
+    "p2p_count": 583,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_django_django_20260320061128609318",
+    "status": "valid",
+    "p2f_count": 57,
+    "p2p_count": 33,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320062056619468",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 4,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320062236991817",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 447,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320062334889358",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 56,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320062936028192",
+    "status": "valid",
+    "p2f_count": 9,
+    "p2p_count": 29,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320063424387449",
+    "status": "valid",
+    "p2f_count": 9,
+    "p2p_count": 12,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320063616848769",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 38,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320063630676757",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 49,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320063714805729",
+    "status": "valid",
+    "p2f_count": 10,
+    "p2p_count": 240,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320064321642086",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 84,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320064442314609",
+    "status": "valid",
+    "p2f_count": 22,
+    "p2p_count": 101,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320064540538354",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 85,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320064807590296",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 38,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320065048628959",
+    "status": "valid",
+    "p2f_count": 37,
+    "p2p_count": 56,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320065630449746",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 823,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320070250763710",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 1,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320070340070227",
+    "status": "valid",
+    "p2f_count": 17,
+    "p2p_count": 118,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320070855109137",
+    "status": "valid",
+    "p2f_count": 48,
+    "p2p_count": 816,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320070932779796",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 46,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320070948883416",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 274,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320071025942244",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 24,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320071248965825",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 24,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320071457201578",
+    "status": "valid",
+    "p2f_count": 5,
+    "p2p_count": 3,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320071541049021",
+    "status": "valid",
+    "p2f_count": 38,
+    "p2p_count": 58,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_matplotlib_matplotli_20260320071614694696",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 92,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_mwaskom_seaborn_20260320071930733315",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 98,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320075132168368",
+    "status": "valid",
+    "p2f_count": 24,
+    "p2p_count": 43,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320075258477413",
+    "status": "valid",
+    "p2f_count": 10,
+    "p2p_count": 57,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320075438080383",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 66,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320080405982120",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 1517,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320082214857921",
+    "status": "valid",
+    "p2f_count": 62,
+    "p2p_count": 804,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320090414007036",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 882,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320090625867708",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 1086,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320092730659966",
+    "status": "valid",
+    "p2f_count": 11,
+    "p2p_count": 873,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320093014565143",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 816,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320103200050282",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 927,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320115900592996",
+    "status": "valid",
+    "p2f_count": 53,
+    "p2p_count": 1144,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320120158611860",
+    "status": "valid",
+    "p2f_count": 99,
+    "p2p_count": 1619,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320120508491244",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 262,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320120841391804",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 499,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320121111050818",
+    "status": "valid",
+    "p2f_count": 45,
+    "p2p_count": 237,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320122053738423",
+    "status": "valid",
+    "p2f_count": 53,
+    "p2p_count": 1144,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320122345211338",
+    "status": "valid",
+    "p2f_count": 183,
+    "p2p_count": 1253,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320123120698169",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 366,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320123444936418",
+    "status": "valid",
+    "p2f_count": 45,
+    "p2p_count": 237,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320125121232120",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 446,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320125338879144",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 449,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320125430062945",
+    "status": "valid",
+    "p2f_count": 778,
+    "p2p_count": 1075,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320131646798851",
+    "status": "valid",
+    "p2f_count": 42,
+    "p2p_count": 1811,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pydata_xarray_20260320131833452826",
+    "status": "valid",
+    "p2f_count": 14,
+    "p2p_count": 1839,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pylint-dev_pylint_20260320131929629643",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 19,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pylint-dev_pylint_20260320131946312316",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 6,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pylint-dev_pylint_20260320132720154994",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 8,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pylint-dev_pylint_20260320133719320974",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 9,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pylint-dev_pylint_20260320134059944810",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 19,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pylint-dev_pylint_20260320134112363029",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 6,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pylint-dev_pylint_20260320135023367927",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 6,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pylint-dev_pylint_20260320135936906815",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 10,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320134906627828",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 160,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320135142390892",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 161,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320135858812815",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 157,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320140920359060",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 143,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320141158082924",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 160,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320141441743649",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 71,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320141557045713",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 71,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320141612064873",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 71,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320143300270204",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 168,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320143307172072",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 167,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320143429343063",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 71,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320143510570564",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 21,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320143544139627",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 71,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320143807062116",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 65,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320144717052317",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 74,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320144908897355",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 22,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320144942520707",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 172,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320145135088151",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 21,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320145356244399",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 172,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320150427925006",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 172,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320151126674369",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 172,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320152316693552",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 167,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320152507415858",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 167,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_pytest-dev_pytest_20260320152828344032",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 167,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320152056382019",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 15,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320152242895969",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 15,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320152617227336",
+    "status": "valid",
+    "p2f_count": 8,
+    "p2p_count": 5,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320152737137618",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 27,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320152924239129",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 15,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320153042282762",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 15,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320153119880220",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 113,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320153401054018",
+    "status": "valid",
+    "p2f_count": 8,
+    "p2p_count": 5,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320153746694935",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 2,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320153924547363",
+    "status": "valid",
+    "p2f_count": 20,
+    "p2p_count": 41,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320153945620358",
+    "status": "valid",
+    "p2f_count": 5,
+    "p2p_count": 11,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320154009104396",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 10,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320154103618783",
+    "status": "valid",
+    "p2f_count": 18,
+    "p2p_count": 103,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320154533898021",
+    "status": "valid",
+    "p2f_count": 5,
+    "p2p_count": 56,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320154551292687",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 59,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320154714689602",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 38,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320154752994782",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 49,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320155336919814",
+    "status": "valid",
+    "p2f_count": 14,
+    "p2p_count": 62,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320155850254042",
+    "status": "valid",
+    "p2f_count": 20,
+    "p2p_count": 2,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320160037316942",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 167,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320160111529231",
+    "status": "valid",
+    "p2f_count": 79,
+    "p2p_count": 209,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320160204288150",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 21,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320160847459996",
+    "status": "valid",
+    "p2f_count": 20,
+    "p2p_count": 12,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320160938188811",
+    "status": "valid",
+    "p2f_count": 7,
+    "p2p_count": 4,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320161043649744",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 18,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320161229141981",
+    "status": "valid",
+    "p2f_count": 24,
+    "p2p_count": 272,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320161431801941",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 7,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320161934769754",
+    "status": "valid",
+    "p2f_count": 8,
+    "p2p_count": 82,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_scikit-learn_scikit-_20260320164810827186",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 5,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320164826060464",
+    "status": "valid",
+    "p2f_count": 28,
+    "p2p_count": 18,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320164844943837",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 38,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320165159121657",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 77,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320165223420829",
+    "status": "valid",
+    "p2f_count": 7,
+    "p2p_count": 74,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320165309832401",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 75,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320165343384919",
+    "status": "valid",
+    "p2f_count": 9,
+    "p2p_count": 37,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320165649329869",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 1,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320165713115859",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 20,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320165945835370",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 14,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320170039167307",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 23,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320171412495291",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 12,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320171638163531",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 35,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320171807210631",
+    "status": "valid",
+    "p2f_count": 9,
+    "p2p_count": 27,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320172807484347",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 18,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320173140011870",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 41,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320173805125325",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 38,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sphinx-doc_sphinx_20260320174503611525",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 6,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320174753328479",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 32,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320174909904781",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 32,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320174958490539",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 31,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320175042490292",
+    "status": "valid",
+    "p2f_count": 18,
+    "p2p_count": 16,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320175134883093",
+    "status": "valid",
+    "p2f_count": 8,
+    "p2p_count": 56,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320175231128841",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 14,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320175306749618",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 136,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320175353253613",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 35,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320175428672457",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 10,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320175746671534",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 75,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320175819755269",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 73,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320175835347258",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 6,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320175915062436",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 41,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320180023072099",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 55,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320180242431268",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 43,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320180836255390",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 26,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320181100433868",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 72,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320181130604991",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 13,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320181223757675",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 7,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320181930866923",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 6,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320181949381267",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 45,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320182028367890",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 49,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320182111013071",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 115,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320182159779182",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 67,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320182349807116",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 1,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320182410474600",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 3,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320182528814058",
+    "status": "valid",
+    "p2f_count": 15,
+    "p2p_count": 23,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320182621018297",
+    "status": "valid",
+    "p2f_count": 8,
+    "p2p_count": 71,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320182739918902",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 4,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320182811298624",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 2,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320184753013631",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 13,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320185022575915",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 6,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320185207615051",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 14,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320185347268201",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 10,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320191016542691",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 37,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320191117837865",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 140,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320191304324276",
+    "status": "valid",
+    "p2f_count": 4,
+    "p2p_count": 15,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320191407021244",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 14,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320191447259610",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 18,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320191732057213",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 140,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320191933818967",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 32,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320191944007753",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 17,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320192309275119",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 33,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320193006781628",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 2,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320193113301011",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 34,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320193203611177",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 92,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320193241187929",
+    "status": "valid",
+    "p2f_count": 2,
+    "p2p_count": 46,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320193420424385",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 79,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320193542353262",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 95,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320193617435059",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 53,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320193638334333",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 47,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320193714841239",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 7,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320194656533843",
+    "status": "valid",
+    "p2f_count": 6,
+    "p2p_count": 13,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320194716412267",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 9,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320194731100023",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 9,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320194745831886",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 9,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320195042561056",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 44,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320195152823010",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 44,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320195333594263",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 152,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320195555921401",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 10,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320195906244482",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 104,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320195924571733",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 35,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320200042885132",
+    "status": "valid",
+    "p2f_count": 8,
+    "p2p_count": 97,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320200604747278",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 78,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320200634354391",
+    "status": "valid",
+    "p2f_count": 1,
+    "p2p_count": 78,
+    "source": "verified_all_v2"
+  },
+  {
+    "instance_id": "synthetic_sympy_sympy_20260320201119974659",
+    "status": "valid",
+    "p2f_count": 3,
+    "p2p_count": 155,
+    "source": "verified_all_v2"
+  }
+]

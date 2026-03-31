@@ -1,0 +1,50 @@
+# Environment variables (NEVER commit)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Hydra
+outputs/
+multirun/
+.hydra/
+
+# Cache & Logs
+.cache/
+*.log
+
+# Large data assets (embeddings, graphs, repos)
+data/assets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Claude Code
+CLAUDE.md

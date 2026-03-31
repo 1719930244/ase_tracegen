@@ -1,0 +1,8 @@
+{
+  "synthetic_django_django_20260225163353595384": [
+    "cd /testbed && echo 'diff --git a/django/utils/text.py b/django/utils/text.py\nindex 44007beb0f..771c5c7ea1 100644\n--- a/django/utils/text.py\n+++ b/django/utils/text.py\n@@ -395,7 +395,7 @@ def slugify(value, allow_unicode=False):\n     else:\n         value = unicodedata.normalize('\\''NFKD'\\'', value).encode('\\''ascii'\\'', '\\''ignore'\\'').decode('\\''ascii'\\'')\n     value = re.sub(r'\\''[^\\w\\s-]'\\'', '\\'''\\'', value).strip().lower()\n-    return re.sub(r'\\''[-\\s]+'\\'', '\\''-'\\'', value)\n+    return re.sub(r'\\''[-\\s]+$'\\'', '\\''-'\\'', value)\n \n \n def camel_case_to_spaces(value):\n' | git apply --allow-empty"
+  ],
+  "synthetic_django_django_20260225162704988642": [
+    "cd /testbed && echo 'diff --git a/django/views/decorators/cache.py b/django/views/decorators/cache.py\nindex fdc5917738..3b85306705 100644\n--- a/django/views/decorators/cache.py\n+++ b/django/views/decorators/cache.py\n@@ -27,7 +27,6 @@ def cache_page(timeout, *, cache=None, key_prefix=None):\n \n def cache_control(**kwargs):\n     def _cache_controller(viewfunc):\n-        @wraps(viewfunc)\n         def _cache_controlled(request, *args, **kw):\n             if not isinstance(request, HttpRequest):\n                 raise TypeError(\n' | git apply --allow-empty"
+  ]
+}

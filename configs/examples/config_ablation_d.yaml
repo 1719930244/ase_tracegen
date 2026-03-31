@@ -1,0 +1,17 @@
+# Ablation D: w/o Intent Alignment (DashScope)
+defaults:
+  - config_balanced_flash
+  - _self_
+
+data:
+  output_dir: "../tracegen-outputs/ablation_d_no_intent/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+
+method:
+  num_candidates: 2
+  ablation:
+    disable_candidate_filtering: true
+  synthesis:
+    matcher:
+      top_k_final: 2
+    agent:
+      max_attempts: 1

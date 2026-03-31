@@ -1,0 +1,18 @@
+# Ablation A: w/o DefectChain guidance
+defaults:
+  - config_balanced_flash
+  - _self_
+
+data:
+  output_dir: "../tracegen-outputs/ablation_a_no_defectchain/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+
+method:
+  num_candidates: 2
+  ablation:
+    disable_fix_intent: true
+    disable_chain_alignment: true
+  synthesis:
+    matcher:
+      top_k_final: 2
+    agent:
+      max_attempts: 1

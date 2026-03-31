@@ -1,0 +1,56 @@
+[
+  {
+    "model": "qwen3.5-plus",
+    "level": "l1",
+    "total": 174,
+    "has_submission": 11,
+    "resolved": 7,
+    "errors": 2,
+    "resolve_rate": "7/174 (4.0%)"
+  },
+  {
+    "model": "qwen3.5-plus",
+    "level": "l2",
+    "total": 174,
+    "has_submission": 10,
+    "resolved": 3,
+    "errors": 4,
+    "resolve_rate": "3/174 (1.7%)"
+  },
+  {
+    "model": "qwen3.5-plus",
+    "level": "l3",
+    "total": 174,
+    "has_submission": 9,
+    "resolved": 4,
+    "errors": 3,
+    "resolve_rate": "4/174 (2.3%)"
+  },
+  {
+    "model": "qwen3-coder-next",
+    "level": "l1",
+    "total": 174,
+    "has_submission": 13,
+    "resolved": 7,
+    "errors": 0,
+    "resolve_rate": "7/174 (4.0%)"
+  },
+  {
+    "model": "qwen3-coder-next",
+    "level": "l2",
+    "total": 174,
+    "has_submission": 15,
+    "resolved": 6,
+    "errors": 4,
+    "resolve_rate": "6/174 (3.4%)"
+  },
+  {
+    "model": "qwen3-coder-next",
+    "level": "l3",
+    "total": 174,
+    "has_submission": 8,
+    "resolved": 4,
+    "errors": 1,
+    "resolve_rate": "4/174 (2.3%)"
+  }
+]

@@ -1,0 +1,17 @@
+# Ablation C: w/o Chain Depth Filter (DashScope)
+defaults:
+  - config_balanced_flash
+  - _self_
+
+data:
+  output_dir: "../tracegen-outputs/ablation_c_no_depth/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+
+method:
+  num_candidates: 2
+  ablation:
+    disable_chain_depth_filter: true
+  synthesis:
+    matcher:
+      top_k_final: 2
+    agent:
+      max_attempts: 1

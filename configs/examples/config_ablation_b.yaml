@@ -1,0 +1,17 @@
+# Ablation B: w/o Semantic Matching
+defaults:
+  - config_balanced_flash
+  - _self_
+
+data:
+  output_dir: "../tracegen-outputs/ablation_b_no_semantic/${now:%Y-%m-%d}/${now:%H-%M-%S}"
+
+method:
+  num_candidates: 2
+  ablation:
+    disable_graph_matching: true
+  synthesis:
+    matcher:
+      top_k_final: 2
+    agent:
+      max_attempts: 1
