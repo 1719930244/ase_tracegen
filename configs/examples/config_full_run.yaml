@@ -6,7 +6,7 @@ defaults:
   - _self_
 
 data:
-  swebench_path: "data/seed_instances/balanced_200.json"
+  swebench_path: "data/seed_instances/balanced.json"
   target_instances_path: ""
   output_dir: "outputs/full_run"
 

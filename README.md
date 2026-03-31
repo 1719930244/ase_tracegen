@@ -18,14 +18,14 @@ The synthesized benchmark is located in `data/synthesized_bugs/`:
 
 | File | Description |
 |------|-------------|
-| `tracegen_174_full.json` | 174 validated synthetic bugs in SWE-bench format, with injection patches, test oracles, and seed instance references |
-| `problem_statements_3levels.json` | Problem statements at 3 difficulty levels (L1/L2/L3) + original for all 174 instances |
-| `valid_295_summary.json` | Validation summary for 295 valid bugs (p2f/p2p counts) |
+| `tracegen_full.json` | 174 validated synthetic bugs in SWE-bench format, with injection patches, test oracles, and seed instance references |
+| `problem_statements_levels.json` | Problem statements at 3 difficulty levels (L1/L2/L3) + original for all 174 instances |
+| `valid_summary.json` | Validation summary for 295 valid bugs (p2f/p2p counts) |
 | `quality_metrics.json` | Per-instance quality scores across 5 dimensions |
 | `chain_guided_ps.json` | Chain-guided PS generation with entropy/signal metrics |
-| `sample_20.json` | 20 representative instances with full patches for quick inspection |
+| `sample.json` | Representative instances with full patches for quick inspection |
 
-Showcase examples with end-to-end detail are in `data/examples/showcase_5.json` (5 instances from different repositories, each with injection patch + 3 PS levels).
+Showcase examples with end-to-end detail are in `data/examples/showcase.json` (5 instances from different repositories, each with injection patch + 3 PS levels).
 
 ### Baseline comparisons: `data/baselines/`
 
@@ -62,7 +62,7 @@ python main.py runtime.validation_only_dir=outputs/2026-03-20/21-00-03
 
 ```bash
 # Convert synthesized bugs to SWE-agent format
-python scripts/sweagent/convert_to_sweagent.py --input data/synthesized_bugs/tracegen_174_full.json --output sweagent_instances/
+python scripts/sweagent/convert_to_sweagent.py --input data/synthesized_bugs/tracegen_full.json --output sweagent_instances/
 
 # Generate PS at different difficulty levels
 python scripts/sweagent/generate_ps_levels.py --input sweagent_instances/instances_original.json

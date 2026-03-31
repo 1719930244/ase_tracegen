@@ -10,7 +10,7 @@ hydra:
 
 # Data paths
 data:
-  swebench_path: "data/seed_instances/sample_10.json"  # Input SWE-bench instances
+  swebench_path: "data/seed_instances/sample_seeds.json"  # Input SWE-bench instances
   target_instances_path: ""  # Optional: JSON list of instance IDs to process
   output_dir: "outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}"
   cache_dir: "data/assets"
