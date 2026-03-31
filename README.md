@@ -18,14 +18,14 @@ The synthesized benchmark is located in `data/synthesized_bugs/`:
 
 | File | Description |
 |------|-------------|
-| `tracegen_full.json` | 174 validated synthetic bugs in SWE-bench format, with injection patches, test oracles, and seed instance references |
-| `problem_statements_levels.json` | Problem statements at 3 difficulty levels (L1/L2/L3) + original for all 174 instances |
-| `valid_summary.json` | Validation summary for 295 valid bugs (p2f/p2p counts) |
-| `quality_metrics.json` | Per-instance quality scores across 5 dimensions |
+| `tracegen_full.json` | Validated synthetic bugs in SWE-bench format, with injection patches, test oracles, and seed instance references |
+| `problem_statements_levels.json` | Problem statements at three difficulty levels (L1/L2/L3) + original for all instances |
+| `valid_summary.json` | Validation summary for all valid bugs (p2f/p2p counts) |
+| `quality_metrics.json` | Per-instance quality scores across multiple dimensions |
 | `chain_guided_ps.json` | Chain-guided PS generation with entropy/signal metrics |
 | `sample.json` | Representative instances with full patches for quick inspection |
 
-Showcase examples with end-to-end detail are in `data/examples/showcase.json` (5 instances from different repositories, each with injection patch + 3 PS levels).
+Showcase examples with end-to-end detail are in `data/examples/showcase.json` (selected instances from different repositories, each with injection patch + three PS levels).
 
 ### Baseline comparisons: `data/baselines/`
 
@@ -45,17 +45,17 @@ cp .env.example .env
 ## Usage
 
 ```bash
-# Run with default config (10 sample instances)
+# Run with default config (sample instances)
 python main.py
 
 # Run with a specific config
 python main.py --config-name config_full_run
 
 # Hydra overrides
-python main.py runtime.batch_size=5 method.ablation.disable_graph_matching=true
+python main.py runtime.batch_size=20 method.ablation.disable_graph_matching=true
 
 # Validation-only mode (skip Stage 1-2, re-validate existing outputs)
-python main.py runtime.validation_only_dir=outputs/2026-03-20/21-00-03
+python main.py runtime.validation_only_dir=outputs/<run-dir>
 ```
 
 ### SWE-agent Evaluation
@@ -90,7 +90,7 @@ Key settings:
 │   └── examples/               # Ablation and full-run configs
 ├── data/
 │   ├── seed_instances/         # Input SWE-bench seed bugs
-│   ├── synthesized_bugs/       # Synthesized benchmark (174 validated bugs)
+│   ├── synthesized_bugs/       # Synthesized benchmark (validated bugs)
 │   ├── examples/               # Showcase examples with full detail
 │   ├── baselines/              # Baseline comparison results
 │   └── evaluation/             # SWE-agent evaluation results
